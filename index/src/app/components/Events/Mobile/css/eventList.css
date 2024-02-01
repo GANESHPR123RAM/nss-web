@@ -1,0 +1,21 @@
+.mobile-event-list-container{
+    padding: 0.6rem;
+    background: #FFFFFF;
+    border-radius: 8px;
+}
+
+.mobile-single-event{
+    
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #FFE8D7;
+
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 1.2rem;
+    color: #666666;
+
+}

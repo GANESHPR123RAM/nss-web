@@ -1,0 +1,27 @@
+.Admincontainer{
+    margin-top: 10%;
+width: 100vw;
+margin-left: 10vw;
+height: 60vh;
+}
+.adminbtns{
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 13vw;
+    margin-top: 10px;
+}
+.adminbtns:hover {
+    background-color: #0069d9;
+  }
+  
+  .adminbtns:active {
+    background-color: #005cbf;
+  }
+  .adminbuttons{
+    display: flex;
+    flex-direction: column;
+  }

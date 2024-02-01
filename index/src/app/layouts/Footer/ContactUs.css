@@ -1,0 +1,161 @@
+body{
+    background: #080808;
+z-index: -10000;
+}
+.Contact-container {
+    height: 50vh;
+    /* width: 100vw; */
+    display: flex;
+    flex-direction: row;
+    align-content: space-evenly;
+    background: #080808;
+    /* padding: 5vh 2vw 5vh 2vw; */
+    
+}
+
+.footerCol1 {
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    height: 40vh;
+    align-items: center;
+    padding: 3%;
+    gap: 50px;
+}
+.footerLogo {
+    display: flex;
+    flex-direction: row;
+    width: 94%;
+    height: 20%;
+    padding-right: 8%;
+    gap: 1%;
+}
+
+.logoImg {
+    width: 40%;
+    height: 100%;
+   
+}
+.logoContaint {
+    width: 50%;
+    height: 100%;
+  
+}
+.NSS {
+    color: #FFF;
+    font-family: ""Mulish"";
+    font-size: 19.381px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 99%;
+    height: 90%;
+    
+}
+
+.date-box {
+    color: #8FEFE9;
+    font-family: ""Mulish"";
+    font-size: 7.268px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    height: 10%;
+}
+
+.footerText {
+    color: #FFF;
+    font-family: ""Mulish"";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 94%;
+    height: 35%;
+}
+
+.contactusBtn {
+    color: #FFF;
+    font-family: ""Mulish"";
+    font-size: 20px;
+    font-style: normal;
+    margin-top: 2vh;
+    font-weight: 700;
+    line-height: normal;
+    width: 94%;
+    height: 15%;
+}
+
+
+.footerText {
+    color: #FFF;
+    font-family: ""Mulish"";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 94%;
+    height: 35%;
+}
+
+.contactusBtn {
+    color: #FFF;
+    font-family: ""Mulish"";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 94%;
+    height: 15%;
+}
+.footerCol2 {
+    display: flex;
+    flex-direction: row;
+    color: #FFF;
+    text-decoration: none;
+    width: 35vw;
+    height: 50vh;
+    gap: 10px;
+    padding: 6vh 6vw 6vh 6vw;
+}
+.col1 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    color: #FFF;
+    text-decoration: none;
+    font-family: ""Mulish"";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 23vw;
+    height: 38vh;
+}
+.col1 a{
+    text-decoration: none;
+    color: #FFF;
+}
+
+.footerCol3 {
+    display: flex;
+    flex-direction: row;
+    width: 30vw;
+    height: 50vh;
+    align-items: center;
+    justify-content: center;
+    padding: 10vh 3vw 10vh 3vw;
+    color: #FFF;
+}
+.icon-box{
+width:24vw;
+height:30;
+gap: 8%;
+display: flex;
+ align-items: center;
+    justify-content: center;
+}
+.icon{
+    width: 10%;
+    height: 10%;
+}

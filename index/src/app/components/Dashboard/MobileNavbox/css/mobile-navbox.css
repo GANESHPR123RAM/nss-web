@@ -1,0 +1,26 @@
+.mobile-single-component-container{
+    border : 0.1rem solid #ff5349;
+    border-radius: 18.5px;
+    height : 6.5vh;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.9rem;
+    line-height: 1rem;
+    text-align: center;
+    margin : 0rem;
+    
+}
+
+.slide-me{
+  
+  display:flex;
+  flex-direction: row;
+  overflow-x: scroll;
+}
+
+.card-component{
+    margin-left: 0.1rem;
+    margin-right : 0.1rem;
+    margin-top: 0.1rem;
+}

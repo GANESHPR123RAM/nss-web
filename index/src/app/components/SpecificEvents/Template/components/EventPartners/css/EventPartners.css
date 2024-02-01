@@ -1,0 +1,35 @@
+.EventPartnerWrapper {
+    width: 100%;
+    padding: 4rem;
+    overflow-x: hidden;
+  }
+  
+  .PartnerImg {
+    width: 80%;
+  }
+  
+  .Partners {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 1rem;
+    width: 100%;
+  }
+  
+  .PartnerLogo{
+      background-color: #ffffff;
+      box-shadow: 1.30452px 1.30452px 2.60905px rgba(102, 51, 170, 0.2), -1.30452px -1.30452px 4.56583px rgba(255, 255, 255, 0.7);
+border-radius: 6.5px;
+
+  }
+  /* .PartnerLogo {
+    width: 30%;
+  } */
+  
+  .PartnerHeading {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    color: #222222;
+  }

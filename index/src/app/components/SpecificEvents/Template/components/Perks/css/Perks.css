@@ -1,0 +1,27 @@
+.perks-container{
+    padding: 3rem;
+}
+
+.perks-container-header{
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    
+    color: #222222;
+    margin: 2rem;
+
+}
+
+.perks-list-container{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    
+    color: #222222;
+    margin: 2rem;
+}

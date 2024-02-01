@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@500&display=swap');
+
+.partnerPage {
+  width: 100%;
+  margin: auto;
+  padding-top: 8rem;
+  padding-left: 7.5vw;
+  padding-right: 7.5vw;
+  position: relative;
+}
+
+.patronage {
+  display: flex;
+
+  margin: auto;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+.backpart{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 90vh;
+  filter: brightness(60%);
+  z-index: -10000;
+}
+.partcontent{
+  color: #FFF;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  margin-right: 3.8rem;
+  padding-top: 2rem;
+}
+.downcontent{
+  margin-top: 1.5rem;
+  color: #FFF;
+  font-family: Mulish;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: normal;
+}
+.nssl{
+  display: flex;
+  padding-left: 2rem;
+}
+.headcontent{
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
+  margin-top: 0.3rem;
+}
+.headingtext{
+  margin: 0px;
+  margin-top: 2px;
+  padding: 0px;
+  color: #FFF;
+  font-family: Mulish;
+  font-size: 38.819px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 99%; /* 38.431px */
+  letter-spacing: 2px;
+}
+.datelogo{
+  margin-top: 0.5rem;
+  color: #8FEFE9;
+  font-family: Mulish;
+  font-size: 14.557px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.rightimage{
+  z-index: 10;
+}
+.rightimg{
+  width: 600px;
+  height: 330px;
+}
+.associate {
+  width: 40%;
+  margin: auto;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+.backpart{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 90vh;
+  z-index: 0;
+  filter: brightness(60%);
+  z-index: -10000;
+}
+.partcontent{
+  color: #FFF;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  margin-right: 3.8rem;
+  padding-top: 2rem;
+}
+.downcontent{
+  margin-top: 1.5rem;
+  color: #FFF;
+  font-family: ""Mulish"";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: normal;
+}
+.nssl{
+  display: flex;
+  padding-left: 2rem;
+}
+.headcontent{
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
+  margin-top: 0.3rem;
+}
+.headingtext{
+  margin: 0px;
+  margin-top: 2px;
+  padding: 0px;
+  color: #FFF;
+  font-family: ""Mulish"";
+  font-size: 38.819px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 99%; /* 38.431px */
+  letter-spacing: 2px;
+}
+.datelogo{
+  margin-top: 0.5rem;
+  color: #8FEFE9;
+  font-family: ""Mulish"";
+  font-size: 14.557px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.rightimage{
+  z-index: 10;
+}
+.rightimg{
+  width: 600px;
+  height: 330px;
+}
+.associate {
+  width: 40%;
+  /* margin: auto; */
+}
+
+.partners-sponsers{
+width: 98.85vw;
+background: url(./assets/sponser-back.png);
+background-position: center;
+background-size: cover;
+display: flex;
+padding-top: 10vh;
+padding-bottom: 10vh;
+flex-direction: column;
+filter: brightness(90%);
+  box-sizing: border-box;
+/* padding-block: 7rem; */
+background-color: rgba(0, 0, 0, 0.5);
+/* row-gap: 3rem; */
+}
+
+.partners-sponsers-heading{
+  text-align: center;
+  color: white;
+  background: linear-gradient(184deg, #FFF 3.29%, #5DC1C2 176.52%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-family: 'Mulish', sans-serif;
+font-weight: 700;
+}
+.partners-sponser-content{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-evenly
+}
+.partner-sponser-content-box{
+  width: 100%;
+  height: 35vh;
+  border-radius: 16px;
+opacity: 0.8;
+background: linear-gradient(180deg, rgba(79, 181, 179, 0.80) 0%, rgba(13, 177, 147, 0.50) 100%);
+box-shadow: 4px 4px 32px 0px rgba(0, 0, 0, 0.25), 4px 4px 16px 2px rgba(0, 0, 0, 0.25);
+backdrop-filter: blur(8px);
+display: flex;
+justify-content: center;
+align-content: center;
+}
+.img{
+  background: url(./assets/Heritage.png) no-repeat scroll center center transparent;
+  height: 100%;
+  width: 100%;
+}
+
+
+.partner-sponser-content-box-outer{
+display: flex;
+flex-direction: column;
+/* row-gap: 1.75rem; */
+width: 18%;
+
+}
+
+.partner-sponser-content-box-heritage{
+font-size: 1.2rem;
+color: #fff;
+text-transform: uppercase;
+font-weight: 500;
+width: 100%;
+text-align: center;
+font-family: 'Mulish', sans-serif;
+
+}
+
+.heading {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2rem;
+  /* line-height: 44px; */
+  /* identical to box height */
+  text-align: center;
+  color: #4f4f4f;
+}
+@media (max-width:1150px){
+  .patronage{
+    display: none;
+  }
+}

@@ -1,0 +1,115 @@
+.mobileView {
+    display: none;
+  }
+  
+  .dropdown {
+    display: none;
+  }
+  .eventMain {
+    width:20vw;
+    height: 90vh;
+  }
+  /* .line-events{
+    height: 20vh;
+    width: 5vw;
+    background-color: rgba(253, 101, 45, 1);
+  } */
+  .e-left {
+    margin-left: -4vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+   height: 100%;
+    background: #fafafa;
+    box-shadow: 2px 2px 5px 1px rgba(102, 58, 163, 0.12),
+      -4px -4px 7px 3px rgba(255, 255, 255, 0.6);
+    /* border-radius: 15px; */
+    margin-top: -43%;
+    /* padding-left: 3vw; */
+  }
+  
+  .e-left hr {
+    background: linear-gradient(
+      270deg,
+      rgba(102, 58, 163, 0) 0%,
+      rgba(102, 58, 163, 0.71) 98.85%
+    );
+    transform: matrix(1, 0, 0, -1, 0, 0);
+    width: 100%;
+    height: 0.4vh;
+  }
+
+  
+  .e-left a {
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    /* line-height: 126.19%; */
+height: 10%;
+    color: #444444;
+    padding-top: 5%;
+    text-align: center;
+    justify-content: center;
+
+  }
+  
+  @media screen and (max-width: 600px) {
+    .mobileView {
+      display: inline-block;
+    }
+  
+    .buttonDrop {
+      padding: 0;
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 2.625vw;
+      line-height: 126.19%;
+      /* identical to box height, or 13px */
+      letter-spacing: 0.025em;
+      color: #444444;
+      background: none;
+      border: none;
+      /* background-color: #6c757d;
+      border-color: #6c757d; */
+    }
+  }
+
+  .home{
+    background-color: rgba(253, 101, 45, 1);
+  }
+.MUN{
+  background-color: rgba(253, 101, 45, 1);
+}
+.conclave{
+  background-color: rgba(253, 101, 45, 1);
+}
+.sociothon{
+  background-color: rgba(253, 101, 45, 1);
+}
+.policycase{
+  background-color: rgba(253, 101, 45, 1);
+}
+.innovision{
+  background-color: rgba(253, 101, 45, 1);
+}
+.casestudy{
+  background-color: rgba(253, 101, 45, 1);
+}
+.workshop{
+  background-color: rgba(253, 101, 45, 1);
+}
+.abhi{
+  background-color: rgba(253, 101, 45, 1);
+}
+.turncoat{
+  background-color: rgba(253, 101, 45, 1);
+}
+.hunt{
+  background-color: rgba(253, 101, 45, 1);
+}
+.summit{
+  background-color: rgba(253, 101, 45, 1); 
+}

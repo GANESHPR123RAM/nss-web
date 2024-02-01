@@ -1,0 +1,55 @@
+@media screen and (min-width: 760px) {
+  #card-2{
+ padding-top: 2rem;
+}
+ }
+
+ @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+ .row{
+     padding-right : 0;
+     padding-left: 0;
+     margin-right : 0;
+     margin-left :0
+ }
+
+ .cardimg{
+  display: flex;
+  width:50%;
+  margin:auto;
+   }
+   .card-title{
+     padding-left: 5rem;
+     padding-top: 4rem;
+   }
+.card-text{
+ font-family: 'Roboto', sans-serif;
+ font-style: normal;
+ font-weight: normal;
+ font-size: 1rem;
+ color: #444444;
+
+}
+.card-body{
+  position :relative;
+}
+
+.number{
+  position:absolute;
+  font-family: Roboto;
+   font-style: normal;
+   font-weight: bold;
+ font-size: 6rem;
+ line-height: 126.19%;
+opacity: 0.5;
+color:#FFE8D7;
+}
+
+
+
+.containCard{
+  display:flex;
+  flex-direction: row;
+  width:95%;
+  margin: auto;
+}
+

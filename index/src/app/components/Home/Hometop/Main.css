@@ -1,0 +1,128 @@
+.main-container{
+    /* border: 1px solid black; */
+    height: 90vh;
+    /* padding: 25%; */
+    width: 98vw;
+    background: linear-gradient(rgba(217, 217, 217, 0),rgba(253, 232, 204, 1));
+
+}
+.imgbox{
+    margin-top: 2em;
+    padding-top: 2em;
+    height: 60vh;
+    background: url("./finalimghome.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-position-y:25em; */
+}
+.cont{
+    margin-top: 1.5em;
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 135%;
+/* or 21px */
+
+text-align: center;
+
+color: #333333;
+}
+.date{
+    display: none;
+}
+.btnbox{
+    display: flex;
+    flex-direction: row;  
+    margin-top: 2em;
+   /* display: block; */
+   margin-left: 40vw;
+}
+.btn2{
+    box-sizing: border-box;
+    /* display: flex;
+    flex-direction: row; */
+    justify-content: center;
+    align-items: center;
+    padding: 8px 32px;
+    gap: 8px;
+
+    margin-right: 2em;
+    
+    
+    background: #FD652D;
+    color: white;
+/* CP/Orange */
+
+    border: 1px solid #FD652D;
+/* drop-shadow/button-primary */
+
+    box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.043);
+    border-radius: 2px;
+
+}
+.btn3{
+    box-sizing: border-box;
+
+/* Auto layout */
+
+    /* display: flex;
+    flex-direction: row; */
+    justify-content: center;
+    align-items: center;
+    padding: 8px 32px;
+    gap: 8px;
+    
+    color: #FD652D;
+    background-color: white;
+    border: 1px solid #FD652D;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.plink{
+    text-decoration: none;
+    color: #FD652D;
+}
+.Rlink{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+@media only screen and (width<=720px){
+    .main-container{
+        height: 50vh;
+        width: 100vw;
+        margin: 10em 0em 0em 0em;
+        /* border: 1px solid black; */
+    }
+    .cont{
+        margin-top: 0px;
+        font-size: 14px;
+        line-height: 150%;
+    }
+    .date{
+        display: block;
+        color:rgba(34, 73, 90, 1);
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+/* identical to box height, or 162% */
+
+        text-align: center;
+    }
+    .imgbox{
+        background-image: url('./BREAKING\ CONVENTIONS.png');
+        height: 20vh;
+        width: 80vw;
+        margin-left: 2.5em;
+    }
+    .btnbox{
+        margin-left: 13vw;
+    }
+}

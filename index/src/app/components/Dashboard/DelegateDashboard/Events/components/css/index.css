@@ -1,0 +1,32 @@
+.tabs{
+    height : 7%
+}
+
+.tab-main-view{
+    height : 80%;
+   
+}
+
+.mobile-tab-main-view{
+    height : 90%;
+    margin-top : 3rem
+}
+
+.event-submission-form-text{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.1rem;
+    line-height: 1.2rem;
+    text-align: center;
+    color: #444444;
+}
+
+.event-submission-form-button a{
+    padding : 1rem;
+    background: orangered;
+    box-shadow: inset -1px -1px 4px rgba(0, 0, 0, 0.25), inset 1px 1px 4px rgba(255, 255, 255, 0.25);
+    border-radius: 5px;
+    color : #ffffff;
+    margin : 0 2rem 0 2rem
+}

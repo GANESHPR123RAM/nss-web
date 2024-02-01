@@ -1,0 +1,105 @@
+
+.th-home-CurrentTask{
+  display:grid;
+  grid-template-columns: 0.2fr 3fr 2fr;
+  margin:1rem;
+  font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size:0.9rem;
+line-height: 1rem;
+
+
+
+color: #444444;
+}
+
+.th-home-CurrentTaskbtn{
+
+  width:100px;
+ 
+}
+
+.inputfile {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+  justify-self: end;
+}
+
+
+.inputfile + label {
+  font-family: Inter;
+  justify-self: end;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+  width: 110px;
+  color:#663AA3;
+  
+  border: 1px solid #663AA3;
+
+border-radius: 5px;
+  cursor: pointer;
+  padding:5px;
+  justify-content: end;
+}
+
+.inputfile:focus + label,
+.inputfile + label:hover {
+  background-color: lightgray;
+}
+
+.Submitbtn{
+  margin:0 50px;
+  width:80%;
+  background: #F0EBF6;
+  border-radius: 5px;
+  color: #888888;
+  cursor: pointer;
+  height: 32px;
+  border:none;
+  font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 1rem;
+line-height: 1.1rem;
+}
+
+.errButton{
+  margin:0 50px;
+  width:80%;
+  background: #F0EBF6;
+  border-radius: 5px;
+  background-color: #b83535;
+  cursor: pointer;
+  height: 32px;
+  border:none;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1.1rem;
+  color:#ffffff;
+}
+
+.uploadedBtn{
+  color:#ffffff;
+  margin:0 50px;
+  width:80%;
+  background: #F0EBF6;
+  border-radius: 5px;
+  background-color: #3c9468;
+  cursor: pointer;
+  height: 32px;
+  border:none;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1.1rem;
+}

@@ -1,0 +1,137 @@
+.speaker {
+  display: flex;
+ margin-bottom: 4vw;  
+}
+
+.left {
+ position: relative;
+ width: 30%;
+}
+
+/* .image {
+height: 30rem;
+ width: 30rem; 
+} */
+.leftmob{
+ width:80vw;
+ 
+}
+
+.left img {
+ width: 100%;
+}
+
+.title {
+ padding: 0.5vw 1vw;
+ position: absolute;
+ top: 15%;
+ right: -119%;
+ background: #ffffff;
+ box-shadow: 4px 4px 8px rgb(102 58 163 / 25%);
+ border-radius: 0.55vw;
+ width: 130%;
+}
+
+.title h1 {
+ margin: 0.5vw 0;
+ font-family: "Raleway";
+ font-style: normal;
+ font-weight: 1000;
+ font-size: 2.3vw;
+ /* line-height: 49px; */
+ letter-spacing: 0.005em;
+ color: #444444;
+}
+
+.title p {
+ margin: 0;
+ font-family: "Inter";
+ font-style: normal;
+ font-weight: 400;
+ font-size: 0.7vw;
+ /* line-height: 17px; */
+ letter-spacing: 0.005em;
+ color: #888888;
+}
+
+.whitespace {
+ height: 40%;
+}
+
+.right {
+ display: flex;
+ flex-direction: column;
+ width: 70%;
+}
+
+.para {
+ /* height: 17rem; */
+ /* height: 60%; */
+ padding: 1vw;
+ background: #fafafa;
+ box-shadow: 3px 3px 8px rgba(102, 58, 163, 0.12);
+ border-radius: 0.55vw;
+}
+
+.para p {
+ margin: 0;
+ font-family: "Inter";
+ font-style: normal;
+ font-weight: 400;
+ font-size: 1vw;
+ /* line-height: 28px; */
+ /* or 140% */
+ text-align: justify;
+ letter-spacing: 0.005em;
+ color: #444444;
+}
+
+@media only screen and (max-width:993px){
+ .speaker{  
+ display: flex;
+flex-direction: column; 
+align-items: center;
+margin-bottom: 4vw;    
+ }
+ /* .left .img{
+   width:77.77%;
+ } */
+  .left{
+   display: none;
+   /* background-image: url('./assets/Group 701.png'); */
+   /* width:77.77%; */
+ } 
+ .right{
+   position: relative;
+   width: 90vw;
+   height:auto;
+ }
+
+ .title{
+   top:88%;
+   right:-18%;
+ }
+ .para p{
+   font-size: 16px;
+ }
+ .img2{
+   width: 100%;
+   height: auto;
+   
+ }
+}
+
+@media only screen and (min-width:994px){
+ .leftmob{
+   display: none;
+ }
+
+ 
+
+}
+
+ 
+
+}
+
+

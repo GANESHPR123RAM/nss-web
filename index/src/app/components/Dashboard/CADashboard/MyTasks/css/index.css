@@ -1,0 +1,20 @@
+.mytasks-header{
+    height : 15%;
+    width : 100%;
+    margin-bottom : 1rem
+}
+
+
+
+.mytasks-component{
+    height: 85%;
+}
+
+.my-tasks-details-component{
+    border-right : solid 0.1rem #663AA3
+}
+
+.my-tasks-details-component{
+    position : relative
+}
+

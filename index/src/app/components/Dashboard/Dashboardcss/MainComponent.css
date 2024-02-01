@@ -1,0 +1,16 @@
+.main-component-container{
+    height : 100%;
+    width : 100%;
+    background: #FFFFFF;
+    box-shadow: 2px 2px 4px rgba(253, 101, 45, 0.25);
+    /* filter: drop-shadow(1px 1px 4px,rgba(253, 101, 45, 0.25)); */
+    border-radius: 10px;
+    padding : 1rem;
+}
+
+.main-component-head{
+    height : 10%;
+
+}
+
+

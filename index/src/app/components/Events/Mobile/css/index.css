@@ -1,0 +1,15 @@
+.mob-container{
+    height : 100%;
+    padding-top:5rem
+}
+
+.mob-header{
+    --bs-gutter-x:0;
+    padding : 1rem
+}
+
+.mob-content{
+    --bs-gutter-x:0;
+    
+}
+

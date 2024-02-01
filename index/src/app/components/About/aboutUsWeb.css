@@ -1,0 +1,169 @@
+body {
+    overflow-x: hidden;
+    background: #080808;
+    z-index: -10000;
+
+}
+
+.ourstory {
+    width: 98.85vw;
+    height: 95vh;
+    overflow-x: hidden;
+}
+
+.aboutbg1 {
+    width: 98.85vw;
+    height: 95vh;
+    position: absolute;
+    z-index: 0;
+}
+
+.aboutbgcover {
+    width: 80%;
+    margin-left: 12%;
+    margin-top: 5%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 1;
+    opacity: 1;
+}
+
+.aboutbgcoverImg {
+    width: 100%;
+    /* margin-left: 20%;
+margin-top: 8%; */
+    height: 100%;
+    transition: opacity 0.5s ease-in-out;
+    transition: width 0.5s ease-in-out;
+
+    z-index: 1000;
+}
+
+.aboutbgcoverImg.hovered {
+    /* transform: scale(1.1); */
+    width: 95%;
+    cursor: pointer;
+    height: 100%;
+}
+
+.about-containt-Box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+    background: #0000008d;
+    cursor: pointer;
+
+}
+
+.about-containt {
+
+    color: #FFF;
+    text-align: center;
+    font-family: "" Mulish"";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 50vw;
+    padding: -1%;
+    text-align: center;
+    position: absolute;
+    z-index: 0;
+    margin-top: 35%;
+}
+
+
+
+.aboutbgcover:hover .about-containt-Box {
+    opacity: 0.8;
+    z-index: 100000;
+}
+
+.ourstory2 {
+    width: 98.85vw;
+    height: 100vh;
+    overflow-x: hidden;
+
+}
+
+.col1-abt {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    text-align: justify;
+    font-family: "" Mulish"";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 10% 2.5% 10% 5%;
+}
+
+.aboutbg2 {
+    width: 100vw;
+
+    height: 110vh;
+    position: absolute;
+    z-index: -10;
+
+}
+
+.aboutbg2Img {
+    width: 100vw;
+    overflow-x: hidden;
+
+    height: 100%;
+}
+
+.containtbox {
+    display: flex;
+    width: 98.85vw;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+}
+
+.col2-abt {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 30%;
+    height: 100%;
+}
+
+.imgbox1 {
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 10vw;
+}
+
+.imgbox2 {
+    position: absolute;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+}
+
+.imgbox3 {
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 20%;
+}

@@ -1,0 +1,19 @@
+.mobile-add-member-component-container{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.8rem;
+    line-height: 0.8rem;
+    display: flex;
+    align-items: center;
+    padding : 0.6rem;
+
+    color: #663AA3;
+
+    border: 1px solid #663AA3;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin : 0.5rem 0 0.5rem 0
+}
+
+

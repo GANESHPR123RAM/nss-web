@@ -1,0 +1,96 @@
+.th-home-dashboard{
+    border : solid #f6f6f6 0.2rem;
+    
+    border-radius:10px;
+    overflow-x: hidden;
+  }
+  
+  .th-home-dashboard-header{
+    display:flex;
+    background: #FAFAFA;
+    justify-content: space-between;
+    padding: 5px 3.13rem;
+    box-shadow: 0px 4px 8px rgba(102, 58, 163, 0.25);
+    border-radius: 10px 10px 0 0;
+  }
+  
+  
+  .th-home-dashboard-card{
+    display:flex;
+    justify-content: space-between;
+    margin: 0 50px 0 30px;
+  
+  }
+  
+  .line{
+    height:1px;
+    margin:0 1rem;
+    background-color: #663AA3;
+    
+    opacity: 0.3;
+  }
+  
+  
+  .th-home-dashboard-header div{
+    font-family: Inter;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 1rem;
+  line-height: 1.1rem;
+  display: flex;
+  align-items: center;
+  
+  }
+  
+  
+  .th-home-dashboard-card div{
+    font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.9rem;
+  line-height: 1rem;
+  
+  color: #444444;
+  
+  }
+  
+  
+  .th-home-dashboard-card{
+    padding:10px 0;
+  }
+  
+  
+  .th-home-dashboard-body{
+    height : 20rem;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+  
+  .dot{
+    width: 8px;
+    height:8px;
+    border-radius: 50%;
+    background-color: #663AA3;
+    display:flex;
+    justify-items:center;
+    align-self: center;
+    margin-right:10px;
+  }
+  
+  .th-home-dashboard-cardname{
+    display:flex;
+  }
+
+  .th-home-dashboard-body::-webkit-scrollbar {
+    width: 0.2rem;
+  }
+
+  .th-home-dashboard-body::-webkit-scrollbar-track {
+    background : #E5E5E5;
+    border-radius: 8px;
+  }
+
+  .th-home-dashboard-body::-webkit-scrollbar-thumb {
+    background: #8561B5;
+    border-radius: 8px;
+  }

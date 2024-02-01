@@ -1,0 +1,26 @@
+.events-container{
+  height : 100%;
+  top:6rem;
+  padding-right : 10rem;
+   
+  }
+
+.list-component{
+    position: fixed;
+    left : 2rem;
+    top : 13rem;
+    margin: 0;
+    padding: 0;
+  }
+
+  .events-header{
+     
+      margin-top : 5rem;
+      margin-left : 2rem;
+      
+  }
+  
+  .event-content-container{
+      margin-left:1.3rem;
+      margin-right:1.3rem
+  }

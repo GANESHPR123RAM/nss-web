@@ -1,0 +1,73 @@
+.footer-container{
+    height : 22rem;
+    margin-top : 5rem;
+    padding-top : 2rem;
+    background-color: #ffffff;
+    overflow-x: hidden;
+}
+.footer-contact-us-head{
+    height : 10%;
+    margin-left: 0.5rem;
+    font-family:  Raleway;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.2rem;
+}
+
+.footer-row-2{
+    height : 65%
+}
+
+.footer-row-3{
+    height : 5%
+}
+
+.footer-row-4{
+    height : 20%;
+   
+}
+
+.footer-find-us{
+    height : 100%;
+    border-top : solid 0.1rem #DDDDDD;
+    padding: 0.6rem;
+    
+}
+.col-md-8{
+    padding-left : 4rem;
+    padding-right: 4rem;
+}
+.col-md-4{
+    padding-left : 4rem;
+    padding-right: 4rem;
+}
+.nss-logo {
+    border-right : solid 0.1rem #222222
+}
+
+.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    /* color: #663AA3; */
+    background-color: white;
+    opacity: 1; /* Firefox */
+}
+
+.form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    background-color: white;
+}
+
+.form-control::-ms-input-placeholder { /* Microsoft Edge */
+    background-color: white;
+}
+
+.th-form-group textarea{
+    height : 100% !important;
+    /* background-color: white; */
+    
+}
+
+.footer-find-us-head {
+    font-family:  Raleway;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.2rem;
+}

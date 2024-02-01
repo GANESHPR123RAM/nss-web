@@ -1,0 +1,212 @@
+body {
+    background: #080808;
+    z-index: -10000;
+}
+
+.mob-Aboutcontainer {
+    width: 99vw;
+    height: 90vh;
+}
+
+.mob-ourstory {
+    width: 100%;
+    height: 100%;
+}
+
+.mob-aboutbg1 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -10;
+}
+
+.mob-aboutbgcover {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.mob-bg {
+    width: 100%;
+    height: 45%;
+}
+
+.mob-imgbg {
+    width: 100%;
+    height: 100%;
+    /* position: absolute; */
+    /* z-index: 2; */
+}
+
+.mob-aboutbgcoverImg {
+    width: 100%;
+    height: 100%;
+}
+
+.mob-nss {
+    width: 100%;
+    height: 8%;
+    text-align: center;
+    position: absolute;
+    bottom: 0%;
+    top: 37%;
+    z-index: 3;
+    background: rgba(13, 12, 12, 0.50);
+    backdrop-filter: blur(0.mob-2927989363670349px);
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 99%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* 
+.mob-nss p {
+    position: absolute;
+    bottom: 0%;
+    top: 45%;
+    z-index: 3;
+    background: linear-gradient(184deg, #FFF 3.-29%, #5DC1C2 176.52%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 99%;
+   
+} */
+
+.mob-aboutcontaintBox {
+    width: 100%;
+    height: 45%;
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mob-aboutcontaint {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 100%;
+    height: 100%;
+
+}
+
+.mob-vission {
+    width: 100vw;
+    height: 15vh;
+}
+
+
+.mob-boximg {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 155, 252);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mob-Aboutcontainer2 {
+    width: 99vw;
+    height: 70vh;
+}
+
+.mob-aboutcontaintBox2 {
+    width: 100%;
+    height: 100%;
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mob-aboutbg2 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -10;
+}
+
+
+.mob-aboutcontaint2 {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 14px;
+    font-style: normal;
+    /* font-weight: 600; */
+    line-height: normal;
+    width: 100%;
+    height: 100%;
+
+}
+@media (max-width:1024px) {
+    .mob-nss {
+        bottom: 0% !important;
+        top: 50%;
+
+    }
+}
+@media (max-width:1023px) {
+    .mob-nss {
+        bottom: 0% !important;
+        top: 37%;
+
+    }
+}
+
+@media (max-width:376px) {
+    .mob-Aboutcontainer2 {
+        width: 99vw;
+    }
+    .mob-nss {
+        font-size: 16px;
+    }
+    .mob-aboutcontaint2 {
+        font-size: 12px;
+    }
+    .mob-aboutcontaint {
+        font-size: 10px;
+    }
+}
+
+
+@media (max-width:300px) {
+    .mob-Aboutcontainer2 {
+        width: 99vw;  
+    }
+
+    .mob-nss {
+        font-size: 14px;
+    }
+
+    .mob-aboutcontaint2 {
+        font-size: 12px;
+        padding: 3%;
+    }
+
+    .mob-aboutcontaint {
+        font-size: 12px;
+    }
+
+    .mob-Aboutcontainer2 {
+        width: 99vw;
+        height: 100vh;
+    }
+}

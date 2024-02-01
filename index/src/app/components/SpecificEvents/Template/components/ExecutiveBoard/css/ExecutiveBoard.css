@@ -1,0 +1,27 @@
+.executive-board-container{
+    overflow-x: hidden;
+}
+
+.executiveMembers {
+    /* margin-top: 5rem; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* width: 100vw; */
+  }
+
+  .executive-board-header{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    /* or 61px */
+    
+    text-align: center;
+    align-content: center;
+    
+    color: #222222;
+    
+  }

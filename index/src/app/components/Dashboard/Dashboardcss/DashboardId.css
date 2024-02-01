@@ -1,0 +1,39 @@
+.dashboard-text{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 3.6rem;
+    color: #222222;
+
+}
+
+.ca-id-text{
+    margin-top : 0.2rem;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.2rem;
+    line-height: 1.3rem;
+    color: #AAAAAA;
+
+}
+
+.mobile-dashboard-text{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 1.75rem;
+    line-height: 1.8rem;
+    color: #222222;
+}
+
+.mobile-ca-id-text{
+    margin-top : 0.2rem;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 1.1rem;
+    color: #AAAAAA;
+}

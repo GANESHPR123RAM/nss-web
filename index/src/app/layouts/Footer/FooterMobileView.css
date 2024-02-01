@@ -1,0 +1,133 @@
+body{
+    background: #080808;
+z-index: -10000;
+}
+.mob-foot-Contact {
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    /* padding: 2.5vh 2vw 2.5vh 2vw; */
+    background: #080808;
+    align-items: center;
+    color: #FFF;
+    text-decoration: none;
+    gap: 2%;
+}
+
+.mob-foot-footerCol1 {
+    width: 100%;
+    height: 20%;
+    padding: 3%;
+    gap: 50px;
+    display: flex;
+    color: #FFF;
+    text-decoration: none;
+}
+
+.mob-foot-footerCol2 {
+    width: 100%;
+    height: 40%;
+    gap: 10px;
+    color: #FFF;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.mob-foot-footerCol3 {
+    width: 100%;
+    height: 10%;
+    padding: 0 3% 5% 3%;
+}
+
+.mob-foot-contactusBtn {
+    width: 100%;
+    height: 20%;
+    padding: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mob-foot-footerText {
+    width: 54%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: #FFF;
+    text-align: center;
+    font-family: Lato;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 5vh;
+}
+
+.mob-foot-footerLogo {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.mob-foot-logo{
+    height: 15vh;
+    width: 15vw;
+}
+.mob-foot-logoContaint{
+    margin-top: 2vh;
+    width: 25vw;
+
+}
+.mob-foot-col1 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    color: #FFF;
+    text-decoration: none;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.mob-foot-col1 a{
+    text-decoration: none;
+    color: #FFF;
+}
+.mob-foot-icon-box {
+    width: 94%;
+    height: 95%;
+    gap: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mob-foot-icon {
+    width: 10%;
+    height: 95%;
+}
+
+.mob-foot-fabIcon {
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width:500px) {
+
+    .mob-foot-col1 {
+        gap: 10px;
+        font-size: 10px;
+        font-weight: 300;
+    }
+}

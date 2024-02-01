@@ -1,0 +1,26 @@
+.mobile-list-events{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.9rem;
+    line-height: 1rem;
+    
+    color: #444444;
+}
+
+.mobile-drop-icon{
+    box-shadow: 1px 1px 3px rgba(102, 58, 163, 0.12), -2px -2px 4px 2px rgba(255, 255, 255, 0.6);
+border-radius: 2px;
+}
+
+.mobile-dropdown-container{
+    position: relative;
+}
+
+.mobile-events-list{
+    position: absolute;
+    top:1.5rem;
+    left:-3rem;
+    width:150%;
+    z-index: 1000;
+}

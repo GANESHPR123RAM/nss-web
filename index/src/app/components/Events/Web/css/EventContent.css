@@ -1,0 +1,186 @@
+.eright-container{
+  background: linear-gradient(90deg, #FFEEE8 0%, #FFFFFF 57.86%);
+padding-left: 9%;
+padding-top: 8%;
+padding-bottom: 20%;
+margin-left: -3%;
+width: 129%;
+margin-top: -9%;
+
+}
+
+.eright-header{
+display: flex;
+/* background-color: aqua; */
+flex-direction: row;
+}
+.rhr{
+  margin-left: 34vw;
+}
+.rhr span{
+  font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 32px;
+/* identical to box height, or 178% */
+
+/* text-align: right; */
+
+/* CP/Orange */
+
+color: #130e0d;
+}
+.rhl h1{
+  font-family: 'Lato';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 48px;
+}
+
+.rhl p{
+  
+font-family: 'Lato';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+}
+.rhr{
+  font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 32px;
+/* identical to box height, or 178% */
+
+/* text-align: right; */
+
+/* CP/Orange */
+
+color: #FD652D;
+}
+.events-body{
+  width: 85%;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  /* or 24px */
+  margin-top: 15px;
+  
+  color: #333333;
+}
+.perksandimg{
+  display: flex;
+}
+.nperksandimg{
+  display: flex;
+}
+.perks{
+  margin-top: 6vh;
+
+}
+.nperks{
+  width: 55%;
+  margin-top: 20px;
+}
+.nperks h1{
+  font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 150%;
+
+color: #22495A;
+}
+.nperks p{
+  font-family: 'Lato';
+font-style: normal;
+}
+.perks h1{
+  font-family: 'Lato';
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 150%;
+/* identical to box height, or 36px */
+
+
+/* CP/Blue */
+
+color: #22495A;
+}
+.perks ul{
+  margin-top: 2vh;
+  font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 150%;
+/* or 24px */
+
+
+color: #333333;
+}
+
+.perksandimg img{
+  margin: 4vh;
+margin-left: 5vw;
+}
+.nperksandimg img{
+  margin: 4vh;
+}
+.register{
+  margin-top: 2vh;
+  width: 85px;
+height: 32px;
+left: 480px;
+top: 573px;
+
+/* CP/Orange */
+
+background: #FD652D;
+/* CP/Orange */
+
+border: 1px solid #FD652D;
+/* drop-shadow/button-primary */
+
+box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.043);
+border-radius: 2px;
+}
+.view-btn{
+  margin-top: -8px;
+  margin-bottom: 15px;
+  width: 130px;
+  border: 1px solid #FD652D;
+  background: #FD652D;
+height: 38px;
+box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.043);
+border-radius: 4px;
+}
+.rulebook{
+  width: 91px;
+height: 32px;
+left: 585px;
+top: 573px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 22px;
+/* identical to box height, or 157% */
+
+text-align: center;
+
+/* CP/Orange */
+
+color: #FD652D;
+
+/* CP/Orange */
+margin-left: 50px;
+border: 1px solid #FD652D;
+border-radius: 2px;
+}

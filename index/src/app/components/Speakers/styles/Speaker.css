@@ -1,0 +1,242 @@
+body {
+  overflow-x: hidden;
+}
+.speaker {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 0vw;
+  width:100vw;
+  margin-top: 3vh;
+  padding-bottom: 8vh;
+  /* height:400px; */
+  max-height: max-content;
+  /* max-height: 300px; */
+  /* background-color: rgb(34, 73, 90, 0.1); */
+  /* opacity: 0.1; */
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.img{
+    /* height: 100%; */
+    /* aspect-ratio: 	187âˆ¶250; */
+    /* height: 100%; */
+    /* height: 500px; */
+   width:35%; 
+   margin: auto;
+   padding-left: 70px;
+   position: relative;
+
+   padding-right: 30px;
+
+   /* height: max-content; */
+   
+   /* width:auto; */
+  }
+  .title {
+   color: #2BB4EE;
+  position: relative;
+  margin-top: 40px;
+  /* padding: 0.5vw 1vw;
+  top: 15%;
+  right: -119%;
+  background: #ffffff;
+  box-shadow: 4px 4px 8px rgb(102 58 163 / 25%);
+  border-radius: 0.55vw;
+  width: 130%; */
+} 
+
+.title>p{
+  text-align: left !important;
+  color: #D4D4D4;
+}
+.right.title{
+  text-align: center;
+  position: relative;
+  margin-top: 5px; 
+  
+}
+.right.title h1 {
+  text-align: right;
+  margin: 0.5vw 0;
+  font-family: "lato";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 2.3vw;
+  /* line-height: 49px; */
+  letter-spacing: 0.005em;
+  color: #444444;
+  margin-top: 40px;
+ 
+  /* justify-content: center; */
+}
+
+.title p {
+  margin: 0;
+  font-family: "lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  /* line-height: 17px; */
+  letter-spacing: 0.005em;
+}
+
+
+.imgdot1{
+  margin-left: 3.5vw;
+  margin-right: 1vw;
+  position: relative;
+
+}
+.imgdot2{
+  margin-right: 5vw;
+  position: relative;
+}
+.dot2{
+  position: absolute;
+  bottom: 0px;
+}
+.right {
+  
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+ 
+  /* width: 75%; */
+  max-width: fit-content;
+  /* min-height: fit-content; */
+  /* box-shadow: 3px 3px 8px rgba(102, 58, 163, 0.12); */
+  /* margin: 5vw; */
+  
+
+}
+
+.paraSpeaker {
+  /* height: 17rem; */
+ /* padding: 20%; */
+
+  /* height: 60%; */
+  color: rgba(255, 255, 255, 0.60);
+  position: relative;
+  padding-left: 0vw ;
+  
+  /* padding-right: 50px ; */
+  /* text-align:center; */
+  min-height: 60%;
+  text-align: left;
+  font-family: "lato";
+  font-weight: 400;
+  padding-top: 2vw;
+  max-width: max-content;
+  margin-bottom: auto;
+  /* padding-left: -30px; */
+  /* margin-bottom: 10px; */
+  /* background: #fafafa; */
+  /* box-shadow: 3px 3px 8px rgba(102, 58, 163, 0.12); */
+  /* border-radius: 0.55vw; */
+}
+
+.speaker.right.paraSpeaker p {
+  margin: 0;
+  /* padding-left: 30px; */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5vw;
+  z-index:100;
+  /* line-height: 28px; */
+  /* or 140% */
+  /* text-align: justify; */
+  letter-spacing: 0.005em;
+  color: #444444;
+}
+@media (max-width:1000px){
+  .speaker{
+    display: none;
+  }
+}
+
+/* @media only screen and (max-width:993px){
+  .speaker{  
+  display: flex;
+ flex-direction: column; 
+ align-items: center;
+ margin-bottom: 4vw;    
+  }
+  
+  .img{
+    display: none;
+  }
+  .speaker>.right>.title{
+    display:none;
+  }
+   .left{
+    display: none;
+    
+
+  } 
+  .right{
+    position: relative;
+    width: 90vw;
+    height:auto;
+  }
+
+  .title{
+    top:88%;
+    right:-18%;
+  }
+  .paraSpeaker{
+    text-align: center;
+    padding: 16px;
+    
+    padding-right: 130px; 
+  }
+  .paraSpeaker p{
+    
+    font-size: 4rempx;
+
+  }
+  
+  .img2{
+    width: 30%;
+    height: auto;
+    
+  }
+  .right{
+    display: none;
+  }
+  .rightmob{
+    display: flex;
+  flex-direction: column;
+  text-align: center;
+  
+  width:80vw;
+  box-shadow: 3px 3px 8px rgba(102, 58, 163, 0.12);
+  }
+  .speaker.rightmob.paraSpeaker p {
+    margin: 0;
+    width:100%;
+    text-align: center;
+    
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5vw;
+    
+    text-align: justify;
+    letter-spacing: 0.005em;
+    color: #444444;
+  }
+  
+}
+
+@media only screen and (min-width:994px){
+  .leftmob{
+    display: none;
+  }
+  .rightmob{
+    display: none;
+  }
+  
+
+} */
+
+

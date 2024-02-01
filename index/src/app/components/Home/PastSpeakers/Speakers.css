@@ -1,0 +1,187 @@
+
+.speakersbox{
+    display: inline-flex;
+    backdrop-filter: opacity(10%);
+    padding-top: 5vh;
+    margin-top: 12vh;
+    width: 98vw;
+    /* background-color: #041723; */
+}
+.sbox2{
+    display: flex;
+    position: relative;
+    width: 88%;
+}
+.spimg1{
+    
+    z-index: 100;
+}
+.puimg1{
+    width: 400px;
+    transition-property: all;
+    transition-duration: 300ms;
+    transition-timing-function: ease-in;
+}
+.puimg1:hover{
+    cursor: pointer;
+    border-radius: 8px;
+    border: 2px solid #00f2ff;
+    background: #FEFEFE;
+    box-shadow: 4px 4px 16px 1px rgba(240, 236, 236, 0.25);
+}
+.spimg2{
+    z-index: 100000;
+}
+.puimg2{
+    width: 325px;
+    margin-top: 40px;
+    transition-property: all;
+    transition-duration: 300ms;
+    transition-timing-function: ease-in;
+}
+.puimg2:hover{
+    cursor: pointer;
+    border-radius: 8px;
+    border: 2px solid #00f2ff;
+    background: #FEFEFE;
+    box-shadow: 4px 4px 16px 1px rgba(255, 254, 254, 0.25);
+}
+.spimg3{
+    
+    z-index: 10000000;
+    
+}
+.puimg3{
+    width: 250px;
+    margin-top: 85px;
+    transition-property: all;
+    transition-duration: 300ms;
+    transition-timing-function: ease-in;
+}
+.puimg3:hover{
+    cursor: pointer;
+    border-radius: 8px;
+    border: 2px solid #00f2ff;
+    background: #FEFEFE;
+    box-shadow: 4px 4px 16px 1px rgba(244, 242, 242, 0.25);
+}
+.sbox1{
+    width: 30%;
+    height: 100%;
+    justify-content: center;
+    padding: 150px 50px 150px 120px;
+}
+.scontent{
+    font-family: ""Mulish"";
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 99%; /* 47.52px */
+    background: linear-gradient(184deg, #FFF 3.29%, #5DC1C2 176.52%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.sbutton{
+    display: inline-flex;
+    margin-top: 25px;
+    padding: 8px 22px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: linear-gradient(94deg, #028BA3 22.96%, #006E9B 98.15%);
+    box-shadow: 4px 4px 32px 0px rgba(0, 0, 0, 0.25);
+    color: #FFF;
+    font-family: ""Mulish"";
+    font-size: 17px;
+    font-weight: 700;
+    line-height: normal;
+    transition-property: all;
+    transition-duration: 250ms;
+    transition-timing-function: ease-in;
+}
+.sbutton:hover{
+    border: 2px solid #8FEFE9;
+    box-shadow: 4px 4px 16px 2px rgba(153, 238, 232, 0.5);
+}
+@media (max-width:1350px){
+    .speakersbox{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .sbox1{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .scontent{
+        margin: 0px;
+    }
+    .sbutton{
+        margin: 0px;
+    }
+    .sbox2{
+        margin: auto;
+        width: fit-content;
+    }
+}
+@media (max-width:1000px){
+    .scontent{
+        font-size: 25px;
+    }
+    .sbutton{
+        font-size: 15px;
+    }
+}
+@media (max-width:1080px){
+    .puimg1{
+        width: 350px;
+    }
+    .puimg2{
+        width: 275px;
+    }
+    .puimg3{
+        width: 200px;
+    }
+}
+@media (max-width:900px){
+    .puimg1{
+        width: 300px;
+    }
+    .puimg2{
+        width: 225px;
+    }
+    .puimg3{
+        width: 150px;
+    }
+}
+@media (max-width:730px){
+    .puimg1{
+        width: 200px;
+    }
+    .puimg2{
+        width: 150px;
+        margin-top: 30px;
+    }
+    .puimg3{
+        margin-top: 60px;
+        width: 100px;
+    }
+    .sbox1{
+        padding: 40px;
+    }
+}
+@media (max-width:470px){
+    .puimg1{
+        width: 150px;
+    }
+    .puimg2{
+        width: 100px;
+        margin-top: 30px;
+    }
+    .puimg3{
+        margin-top: 50px;
+        width: 70px;
+    }
+}

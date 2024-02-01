@@ -1,0 +1,169 @@
+body{
+    overflow-x: hidden;
+        background: #080808;
+    z-index: -10000;
+}
+.eve-page-eventspage-pop-up{
+    background-image: url("../../../Home/images/final_background.png");
+    /* background-color: black; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+width: 100vw;
+box-sizing: border-box;
+padding-block: 1.5rem;
+display: flex;
+flex-direction: column;
+/* align-items: center; */
+/* height: 260vh; */
+row-gap: 5rem;
+    }
+.eve-page-events-pop-up-heading{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+}
+.eve-page-events-pop-up-cards{
+    width: 90%;
+    display: flex;
+   flex-wrap: wrap;
+   /* height: 190vh; */
+   margin-inline: 5%;
+   gap: 8rem;
+}
+
+
+.eve-page-events-pop-up-cards-2{
+    width: 25%;
+    height: 48vh;
+    
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-evenly;
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(66, 218, 237, 0.50) 0%, rgba(10, 96, 151, 0.50) 100%);
+    box-shadow: 4px 4px 32px 0px rgba(0, 0, 0, 0.50);
+}
+.eve-page-events-pop-up-cards-2-content-2{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 12.5rem;
+   
+}
+.eve-page-events-pop-up-cards-2-img{
+    width: 100%;
+    height: 108%;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+.eve-page-events-pop-up-cards-2-topic{
+    width: 100%;
+    height: 1.5rem;
+    background: rgba(1, 31, 43, 0.80);
+    
+    color: #fff;
+    text-align: center;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    font-weight: bold;
+}
+.eve-page-events-pop-up-cards-2-btns{
+    display: flex;
+    width: 80%;
+    height: 2rem;
+    align-items: center;
+    justify-content: space-between;
+}
+.eve-page-events-pop-up-cards-2-btns-register{
+    width: 40%;
+    height: 1.75rem;
+    text-align: center;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 600;
+    
+    
+    background: linear-gradient(94deg, #028BA3 2296%, #006E9B 98.15%);
+    /* box-shadow: 4px 4px 32px 0px rgba(0, 0, 0, 025); */
+}
+.eve-page-events-pop-up-cards-2-btns-details{
+    width: 40%;
+    height: 1.75rem;
+    text-align: center;
+    border: 2px solid white;
+    background-color: transparent;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+
+
+@media (min-width : 1690px) {
+    .eve-page-events-pop-up{
+        height: 100vh;
+    }
+    .eve-page-events-pop-up-heading{
+        font-size: 2.6rem;
+    }
+    .eve-page-events-pop-up-cards{
+        height: 30rem;
+    }
+    .eve-page-events-pop-up-cards-1-content-1,
+    .eve-page-events-pop-up-cards-2-content-2,
+    .eve-page-events-pop-up-cards-3-content-3{
+        height: 18.5rem;
+    }
+
+    .eve-page-events-pop-up-cards-1-img,
+    .eve-page-events-pop-up-cards-2-img,
+    .eve-page-events-pop-up-cards-3-img{
+        height: 16rem;
+    }
+    .eve-page-events-pop-up-cards-1-topic,
+    .eve-page-events-pop-up-cards-2-topic,
+    .eve-page-events-pop-up-cards-3-topic{
+        height: 2.25rem;
+        font-size: 1.25rem;
+    }
+    .eve-page-events-pop-up-cards-1-btns-details , 
+    .eve-page-events-pop-up-cards-1-btns-register,
+    .eve-page-events-pop-up-cards-2-btns-details,
+    .eve-page-events-pop-up-cards-2-btns-register,
+    .eve-page-events-pop-up-cards-3-btns-details,
+    .eve-page-events-pop-up-cards-3-btns-register{
+        height: 2rem;
+    }
+}
+/* @media (min-width:1024px) and (max-width:1150px) {
+    .eve-page-eventspage-pop-up{
+        height: 220vh;
+    }
+} */
+@media (min-width:540px) and (max-width:1023px) {
+   /* .eve-page-eventspage-pop-up{
+    height: 280vh;
+   } */
+   .eve-page-events-pop-up-cards-2{
+    width: 100%;
+   }
+}
+@media (min-width:320px) and (max-width:540px) {
+    /* .eve-page-eventspage-pop-up{
+     height: 540vh;
+    } */
+    .eve-page-events-pop-up-cards-2{
+     width: 100%;
+    }
+ }

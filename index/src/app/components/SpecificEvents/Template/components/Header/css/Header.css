@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap");
+
+.header-component{
+    overflow-x: hidden;
+}
+
+.th-event-sociothon-top {
+  background: #ffffff;
+  box-shadow: 0px 16px 60px rgba(0, 0, 0, 0.15);
+  border-radius: 25px;
+
+  width: 70%;
+  margin: 0 auto;
+  margin-top: -150px;
+}
+
+.th-event-sociothon-top1 {
+  padding-left: 30px;
+  padding-bottom: 20px;
+  width: 60%;
+}
+.th-event-sociothon-top1 p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.8rem;
+  color: #888888;
+  margin-top : 0
+}
+.th-event-sociothon-top1 h2 {
+  margin-top: -0.5px;
+  padding-top: 5px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 3rem;
+
+  color: #222222;
+}
+.th-event-sociothon-top2 {
+  padding: 10px;
+  padding-top: 50px;
+  width: 30%;
+}
+
+.th-event-sociothon-top1-content {
+  padding-top: 10px;
+}
+
+.th-event-sociothon-top2-image {
+  margin-top: 50px;
+  width: 80%;
+  margin: 0 auto;
+  height: 150px;
+}
+
+.th-event-sociothon-top2-imagecontainer {
+  display: flex;
+  justify-content: end;
+}
+
+.th-Sociothon-content {
+  width: 80%;
+  margin: 50px auto;
+}
+
+.th-Sociothon-content2 p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 141%;
+
+  text-align: justify;
+
+  color: #444444;
+}
+
+.th-Sociothon-content1 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2rem;
+  color: #444444;
+}
+
+.event_line {
+  width: 7rem;
+  height: 3px;
+  background: #663aa3;
+  margin-top: -7px;
+  margin-bottom: 10px;
+}
+
+.th-event-sociothon-top1-links a {
+  text-decoration: none;
+  color: #663aa3;
+  padding-right: 30px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+}
+.th-event-sociothon-top1-links {
+  padding-top: 15px;
+}
+
+.th-Sociothon-contain {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 960px) {
+  .th-event-sociothon-top {
+    display: none;
+  }
+  .th-event-sociothon-top1 {
+    padding-left: 0px;
+    padding-bottom: 20px;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+  }
+  .th-event-sociothon-tops {
+    background: #ffffff;
+    box-shadow: 0px 16px 60px rgba(0, 0, 0, 0.15);
+    border-radius: 25px;
+
+    width: 90%;
+    margin: 0 auto;
+    margin-top: -150px;
+  }
+  .th-event-sociothon-top1 h2 {
+    margin-top: 0px;
+    padding-top: 20px;
+    font-size: 2.5rem;
+  }
+  .th-event-sociothon-top1 p {
+    font-size: 1rem;
+    color: #888888;
+    margin-top : 0
+  }
+  .th-event-sociothon-top1-links {
+    padding-top: 0px;
+    text-align: center;
+  }
+  .th-event-sociothon-prize {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem !important;
+
+    color: #444444;
+  }
+  .th-event-sociothon-top1-links a {
+    padding: 1.5rem;
+  }
+  .th-event-sociothon-top2-imagecontainer {
+    padding-top: 15px;
+  }
+}
+
+@media (min-width: 960px) {
+  .th-event-sociothon-tops {
+    display: none;
+  }
+}

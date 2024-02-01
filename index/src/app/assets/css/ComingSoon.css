@@ -1,0 +1,74 @@
+body {
+    background: #fafafa;
+  }
+.th-comingsoon {
+    background-image: url("../images/bg-signup.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  .th-register-right-web {
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 6rem; */
+    justify-content: center;
+    text-align: center;
+    font-family: Raleway;
+  }
+  .th-right-text-1 {
+    font-size: 33px;
+    font-weight: bold;
+  }
+  .th-right-text-2 {
+    font-size: 18px;
+    font-family: Inter;
+    color: #aaaaaa;
+  }
+  
+  .th-register-right-mobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-family: Raleway;
+  }
+.ss-comingsoon-subheading{
+    color: #663AA3;
+    font-weight: 550;
+    font-size: 90px
+    ;
+}
+#button-addon{
+    background: #663AA3;
+    color: azure
+    ;
+}
+#emailaddress{
+    background: #F3EBFF;
+
+    color: azure
+    ;
+} 
+
+
+@media only screen and (max-width: 576px) {
+
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .th-register-col-2-web {
+      display: none !important;
+    }
+  
+    .th-registration-btn-1 {
+      text-align: center !important;
+    }
+  }
+  @media only screen and (min-width: 768px) {
+    .th-register-col-2-mobile {
+      display: none !important;
+    }
+  }

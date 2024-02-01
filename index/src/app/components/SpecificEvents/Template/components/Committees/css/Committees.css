@@ -1,0 +1,21 @@
+.committees-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+  }
+
+.committees-container-header{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 2.2rem;
+    color: #222222;
+}
+
+.committees-component{
+    overflow-x: hidden ;
+}
+

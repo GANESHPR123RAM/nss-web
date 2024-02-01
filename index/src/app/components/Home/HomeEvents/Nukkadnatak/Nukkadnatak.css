@@ -1,0 +1,188 @@
+.modal-overlay {
+  position: fixed;
+  overflow-y: none;
+  top: 0;
+  left: 0;
+  width: 98.75vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}
+
+.modal3 {
+  position: fixed;
+  top: 50%;
+  overflow-y: none;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* background: rgba(0, 0, 0, 0.1); */
+  border-radius: 8px;
+  padding: 2rem;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  /* max-width: 98.75vw;
+  max-height: 100%; */
+  fill: linear-gradient(180deg, rgba(252, 85, 73, 0.50) 17.76%, rgba(102, 8, 8, 0.50) 100%);
+  filter: drop-shadow(7.884px 7.884px 63.073px rgba(0, 0, 0, 0.50));
+  backdrop-filter: blur(12.809917449951172px);
+
+}
+
+/* .modal3{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    fill: linear-gradient(180deg, rgba(252, 85, 73, 0.50) 17.76%, rgba(102, 8, 8, 0.50) 100%);
+filter: drop-shadow(7.884px 7.884px 63.073px rgba(0, 0, 0, 0.50));
+backdrop-filter: blur(12.809917449951172px);
+} */
+.modal3-content{
+    position: fixed;
+    left: 9%;
+    top: 15%;
+    z-index: 100000;
+    display: flex;
+    column-gap: 1rem;
+}
+.modal3-content-left{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    row-gap: 2rem;
+    font-family: 'Mulish', sans-serif;
+}
+.modal3-content-right{
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    font-family: 'Mulish', sans-serif;
+    
+}
+.modal3-content-left-head{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+.modal3-content-left-head-1{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.modal3-content-left-head-2{
+    font-size: 1rem;
+}
+.modal3-content-left-mid{
+    display: flex;
+    flex-direction: column;
+
+}
+.modal3-content-left-mid-img{
+    width: 80%;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+.modal3-content-left-img-bottom{
+    text-transform: uppercase;
+    text-align: center;
+    background: rgba(125, 14, 14, 0.60);
+    color: #fff;
+    font-weight: 600;
+    width: 80%;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.modal3-content-left-end{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    font-weight: 700;
+    font-size: 0.85rem;
+}
+.modal3-content-right-top{
+    color: #fff;
+    font-weight: 400;
+    text-transform: capitalize;
+    text-align: justify;
+    font-size: 0.9rem;
+}
+.modal3-content-right-middle{
+    color: #fff;
+    text-transform: capitalize;
+    text-align: justify;
+    font-size: 0.9rem;
+}
+.modal3-content-right-middle-head{
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-block: 0.5rem;
+}
+.modal3-content-right-btns{
+    display: flex;
+    height: 2rem;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+    box-sizing: border-box;
+    margin-block: 1.5rem;
+}
+.modal3-content-right-btns-register{
+    border-radius: 8px;
+    background: linear-gradient(94deg, #B80A04 22.96%, #780E08 98.15%);
+    box-shadow: 4px 4px 32px 0px rgba(0, 0, 0, 0.25);
+height: 2rem;
+width: 6rem;
+color: #fff;
+font-weight: 700;
+border: none;
+cursor: pointer;
+}
+.modal3-content-right-btns-rulebook{
+    border-radius: 8px;
+border: 1.5px solid #FFF;
+box-shadow: 4px 4px 32px 0px rgba(0, 0, 0, 0.25);
+height: 2rem;
+width: 6rem;
+color: #fff;
+font-weight: 700;
+background-color: transparent;
+cursor: pointer;
+}
+.modal3-logo{
+    position: fixed;
+    top: 75%;
+    z-index: 100000;
+    left: 73%;
+    display: flex;
+    column-gap: 0.5rem;
+    font-family: 'Mulish', sans-serif;
+}
+.modal3-logo-top{
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    font-weight: 400;
+    
+    
+}
+.modal3-logo-content{
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    color: #fff;
+    row-gap: 0.2rem;
+    
+}
+.modal3-logo-content-date{
+    font-size: 0.6rem;
+    
+}
+.modal3-close{
+    position: fixed;
+    top: 12%;
+    z-index: 100000;
+    left: 88%;
+    cursor: pointer;
+}

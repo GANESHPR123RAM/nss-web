@@ -1,0 +1,38 @@
+
+.header{
+    background-color: #fafafa;
+}
+
+.events_heading {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 3.2rem;
+  /* or 73px */
+  color: #333333;
+}
+
+.events_para {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  /* or 25px */
+  letter-spacing: 0.04em;
+  color: #aaaaaa;
+}
+
+@media screen and (max-width: 600px) {
+  .events_para {
+    display: none;
+  }
+
+  .header {
+    display: inline-block;
+  }
+  .events_heading {
+    display: inline-block;
+  }
+}

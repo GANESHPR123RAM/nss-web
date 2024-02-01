@@ -1,0 +1,37 @@
+.committee-card {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    height:35rem;
+    /* height: 30%; */
+    
+   
+  }
+  
+  .committee-card-image img {
+    /* displ/ay: inline-block; */
+    width: 18rem;
+  }
+  
+  .committee-card-image {
+    margin: 0 auto;
+  }
+  
+  .committee-card-description {
+    /* width: 40%; */
+    
+  }
+  
+  .committee-card-description p {
+    font-size:  1.2rem;
+    text-align: center;
+  }
+
+  .button a{
+    background: #663AA3;
+box-shadow: inset 2px -2px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+padding:  1rem  2rem;
+color : #ffffff;
+margin : 2rem
+  }

@@ -1,0 +1,97 @@
+@media screen and (max-width: 760px) {
+    #dh{
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 37px;
+      line-height: 37px;
+    }
+  }
+@media screen and (min-width: 760px) {
+    #dh{
+        font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 69.9568px;
+    line-height: 82px;
+    }
+  }
+
+  .user-container {
+    background: #FFFFFF;
+    box-shadow: 2px 2px 4px rgba(102, 58, 163, 0.25);
+    border-radius: 10px;
+    padding : 1.5rem
+  }
+
+  .mobile-user-container{
+    background: #FFFFFF;
+    box-shadow: 2px 2px 4px rgba(102, 58, 163, 0.25);
+    border-radius: 10px;
+    padding : 0.1rem
+  }
+
+  .user-name{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    color: #222222;
+  }
+
+  .user-role{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.8rem;
+    line-height: 1rem;
+    color: #AAAAAA;
+  }
+
+  .link a{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.8rem;
+    line-height: 1rem;
+    text-decoration-line: underline;
+
+    color: orangered;
+
+  }
+
+  .link {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.8rem;
+    line-height: 1rem;
+    text-decoration-line: underline;
+
+    color: orangered;
+
+  }
+  
+  .modal {
+    padding-top: 4rem;
+    padding-right: 1rem;
+    padding-left : 1rem;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: start;
+    justify-content: end;
+   
+  }
+
+  .modal-content {
+    
+    background-color: #fff;
+   
+  }
+  
